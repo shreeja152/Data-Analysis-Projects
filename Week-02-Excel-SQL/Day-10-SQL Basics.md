@@ -28,7 +28,7 @@ INSERT INTO sales VALUES (4, 'Phone', 1, 15000);
 
 
 
-#View all data 
+#1 View all data 
 
 
 
@@ -38,13 +38,13 @@ SELECT \* FROM sales;
 
 
 
-#Select specific columns 
+#2 Select specific columns 
 
 SELECT product, price FROM sales;
 
 
 
-#Filter data
+#3 Filter data
 
 SELECT \* FROM sales WHERE product = 'Phone';
 
@@ -52,11 +52,12 @@ SELECT \* FROM sales WHERE product = 'Phone';
 
 
 
-#Simple Calculations
+#4 Simple Calculations
 
 SELECT product, quantity \* price AS total
 
 FROM sales;
+
 
 
 
