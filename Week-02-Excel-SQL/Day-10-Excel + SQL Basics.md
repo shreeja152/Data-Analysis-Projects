@@ -59,6 +59,10 @@ SELECT product, quantity \* price AS total
 FROM sales;
 
 
+<img width="410" height="190" alt="image" src="https://github.com/user-attachments/assets/2ffeb70b-03eb-49e1-9274-f4626f93a598" />
+
+
+
 
 
 
