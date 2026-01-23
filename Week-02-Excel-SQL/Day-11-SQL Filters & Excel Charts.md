@@ -1,15 +1,29 @@
-SQL Filters & Excel Charts
--
-Create Table (
-id INTEGER,
-product TEXT,
-quantity INTEGER,
-price INTEGER
+# DAY 11 — SQL Filters & Excel
+
+
+
+
+
+CREATE TABLE sales (
+
+&nbsp; id INTEGER,
+
+&nbsp; product TEXT,
+
+&nbsp; quantity INTEGER,
+
+&nbsp; price INTEGER
+
 );
 
+
+
 INSERT INTO sales VALUES (1, 'Phone', 2, 15000);
+
 INSERT INTO sales VALUES (2, 'Headphones', 1, 2000);
+
 INSERT INTO sales VALUES (3, 'Charger', 3, 500);
+
 INSERT INTO sales VALUES (4, 'Phone', 1, 15000);
 
 
