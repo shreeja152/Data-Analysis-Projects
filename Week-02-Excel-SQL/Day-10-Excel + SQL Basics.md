@@ -30,12 +30,7 @@ INSERT INTO sales VALUES (4, 'Phone', 1, 15000);
 
 #1 View all data 
 
-
-
 SELECT \* FROM sales;
-
-
-
 
 
 #2 Select specific columns 
@@ -43,13 +38,9 @@ SELECT \* FROM sales;
 SELECT product, price FROM sales;
 
 
-
 #3 Filter data
 
 SELECT \* FROM sales WHERE product = 'Phone';
-
-
-
 
 
 #4 Simple Calculations
@@ -58,10 +49,13 @@ SELECT product, quantity \* price AS total
 
 FROM sales;
 
+<br></br>
+
 
 Data on Excel : 
 -
 <img width="410" height="190" alt="image" src="https://github.com/user-attachments/assets/2ffeb70b-03eb-49e1-9274-f4626f93a598" />
+
 
 
 
