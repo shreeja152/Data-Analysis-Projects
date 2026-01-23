@@ -17,6 +17,8 @@
 
 
 <img width="365" height="142" alt="image" src="https://github.com/user-attachments/assets/acbb932a-b69d-40bc-b1b3-a635357c9c7a" />
+<p></p>
+=IFERROR(AVERAGEIF(Sheet1!B:B, A2, Sheet1!E:E), 0)
 
 <br><br>
 
