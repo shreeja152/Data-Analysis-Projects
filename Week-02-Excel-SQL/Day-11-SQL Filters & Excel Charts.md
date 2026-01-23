@@ -26,6 +26,7 @@ INSERT INTO sales VALUES (3, 'Charger', 3, 500);
 
 INSERT INTO sales VALUES (4, 'Phone', 1, 15000);
 
+<br></br>
 
 1. Filter all sales with price above 1000
 
@@ -44,6 +45,8 @@ WHERE product = 'Phone';
 SELECT * 
 FROM sales 
 WHERE product = 'Phone' AND price > 1000;
+
+<br></br>
 
 EXCEL 
 -
