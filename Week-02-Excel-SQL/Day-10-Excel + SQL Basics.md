@@ -26,7 +26,7 @@ INSERT INTO sales VALUES (3, 'Charger', 3, 500);
 
 INSERT INTO sales VALUES (4, 'Phone', 1, 15000);
 
-<p>  </p>
+<br></br>
 
 #1 View all data 
 
@@ -62,6 +62,7 @@ FROM sales;
 Data on Excel : 
 -
 <img width="410" height="190" alt="image" src="https://github.com/user-attachments/assets/2ffeb70b-03eb-49e1-9274-f4626f93a598" />
+
 
 
 
