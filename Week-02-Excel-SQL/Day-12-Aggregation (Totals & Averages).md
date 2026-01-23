@@ -48,7 +48,3 @@ GROUP BY product;
 SELECT product, AVG(price) AS avg_price
 FROM sales
 GROUP BY product;
-
----
-
-
