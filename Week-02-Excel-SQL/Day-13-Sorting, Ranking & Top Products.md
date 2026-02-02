@@ -21,10 +21,10 @@ GROUP BY product;
 - Used LIMIT to fetch top product
 
 ```sql
-SELECT product, SUM(revenue) AS total_revenue
+SELECT 
+  product, 
+  AVG(price) AS avg_price
 FROM sales
-GROUP BY product
-ORDER BY total_revenue DESC
-LIMIT 1;
+GROUP BY product;
 ```
 
