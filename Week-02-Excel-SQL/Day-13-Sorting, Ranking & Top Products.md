@@ -10,11 +10,12 @@
 - Used ORDER BY to sort aggregated results
   
 ```sql
-SELECT product, SUM(revenue) AS total_revenue
+SELECT 
+  product, 
+  SUM(price * quantity) AS total_revenue
 FROM sales
-GROUP BY product
-ORDER BY total_revenue DESC
-LIMIT 1;
+GROUP BY product;
+
 ```
   
 - Used LIMIT to fetch top product
