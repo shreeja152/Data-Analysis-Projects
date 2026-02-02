@@ -10,9 +10,8 @@
 - Used ORDER BY to sort aggregated results
   
 ```sql
-SELECT 
-  product, 
-  SUM(price * quantity) AS total_revenue
+SELECT product, 
+SUM(price * quantity) AS total_revenue
 FROM sales
 GROUP BY product;
 
