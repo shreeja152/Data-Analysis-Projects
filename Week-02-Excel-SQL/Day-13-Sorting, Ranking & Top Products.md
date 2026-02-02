@@ -20,9 +20,8 @@ GROUP BY product;
 - Used LIMIT to fetch top product
 
 ```sql
-SELECT 
-  product, 
-  AVG(price) AS avg_price
+SELECT product, 
+AVG(price) AS avg_price
 FROM sales
 GROUP BY product;
 ```
