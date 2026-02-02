@@ -46,7 +46,7 @@ SQL Concepts
 1. Total Revenue
 
 ```sql
- SELECT product, SUM(revenue) AS total_revenue
+SELECT product, SUM(revenue) AS total_revenue
 FROM sales
 GROUP BY product;
 ```
