@@ -46,9 +46,12 @@ SQL Concepts
 1. Total Revenue
 
 ```sql
-SELECT product, SUM(revenue) AS total_revenue
+SELECT
+    product,
+    SUM(price * quantity) AS total_revenue
 FROM sales
-GROUP BY product;
+GROUP BY product
+ORDER BY total_revenue DESC
 ```
 
 <p> </p>
