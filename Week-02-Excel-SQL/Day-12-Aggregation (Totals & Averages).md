@@ -63,3 +63,11 @@ SELECT product, AVG(price) AS avg_price
 FROM sales
 GROUP BY product;
 ```
+
+3. Total Orders 
+
+```sql
+SELECT product, COUNT(order_id) AS total_orders
+FROM sales
+GROUP BY products
+```
