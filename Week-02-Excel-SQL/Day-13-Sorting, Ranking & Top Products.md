@@ -15,15 +15,16 @@ FROM sales
 GROUP BY product
 ORDER BY total_revenue DESC;
 
-
 ```
   
 - Used LIMIT to fetch top product
 
 ```sql
-SELECT product, 
-AVG(price) AS avg_price
+SELECT product, SUM(revenue) AS total_revenue
 FROM sales
-GROUP BY product;
+GROUP BY product
+ORDER BY total_revenue DESC
+LIMIT 1;
+
 ```
 
