@@ -13,7 +13,7 @@
 ```
 =RANK(B2,$B$2:$B$4,0)+COUNTIF($B$2:B2,B2)-1
 ```
-<br><\br>
+<br></br>
 
 **SQL**
 - Used ORDER BY to sort aggregated results
