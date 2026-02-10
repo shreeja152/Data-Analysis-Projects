@@ -16,3 +16,10 @@ CASE
 END AS revenue_category
 FROM sales;
 ```
+***Excel***
+
+```
+=IF(C2>=20000,"High Revenue",
+   IF(C2>=10000,"Medium Revenue",
+      "Low Revenue"))
+```
