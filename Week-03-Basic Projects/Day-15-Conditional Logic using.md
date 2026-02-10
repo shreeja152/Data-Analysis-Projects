@@ -18,6 +18,7 @@ CASE
 END AS revenue_category
 FROM sales;
 ```
+#
 ***Excel***
 
 ```
