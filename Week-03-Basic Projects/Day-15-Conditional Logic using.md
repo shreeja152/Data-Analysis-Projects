@@ -8,11 +8,11 @@ id,
 product,
 quantity,
 price,
-price * quantity AS product_revenue
+price * quantity AS product_revenue,
 CASE
-    WHEN product_revenue >= 20000 THEN 'HIGH REVENUE'
-    WHEN product_revenue >= 10000 THEN 'MEDIUM REVENUE'
+    WHEN price * quantity >= 20000 THEN 'HIGH REVENUE'
+    WHEN price * quantity >= 10000 THEN 'MEDIUM REVENUE'
     ELSE 'LOW REVENNUE'
-END AS 'revenue_category'
-FROM sales
+END AS revenue_category
+FROM sales;
 ```
