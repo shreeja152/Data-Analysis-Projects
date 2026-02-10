@@ -2,7 +2,7 @@
 
 ***SQL***
 
-“Classify each order based on how much revenue it generated.”
+Classify each order based on how much revenue it generated.
 
 ```sql
 SELECT
