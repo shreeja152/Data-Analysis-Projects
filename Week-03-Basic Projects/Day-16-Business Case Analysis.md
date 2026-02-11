@@ -1,2 +1,2 @@
-# DAY 16 MINI CASE STUDY
+# DAY 16 Business Case Analysis (MINI CASE STUDY)
 
