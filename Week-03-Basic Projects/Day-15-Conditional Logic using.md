@@ -23,6 +23,5 @@ FROM sales;
 
 ```
 =IF(C2>=20000,"High Revenue",
-   IF(C2>=10000,"Medium Revenue",
-      "Low Revenue"))
+IF(C2>=10000,"Medium Revenue","Low Revenue"))
 ```
