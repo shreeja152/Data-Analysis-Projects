@@ -8,12 +8,16 @@ Your are asked to find:
 
 1. Analyze sales performance and tell me.
 
-2. Which products generate the most revenue?
+'''sql
 
-3. Which category performs best?
+'''
 
-4. Are we making profit or loss overall?
+3. Which products generate the most revenue?
 
-5. Which customers are our top spenders?”
+4. Which category performs best?
+
+5. Are we making profit or loss overall?
+
+6. Which customers are our top spenders?”
 
    
