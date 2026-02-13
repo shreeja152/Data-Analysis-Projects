@@ -8,16 +8,30 @@ Your are asked to find:
 
 1. Analyze sales performance and tell me.
 
-'''sql
+```sql
+SELECT product,
+       SUM(price * quantity) AS total_revenue,
+FROM sales
+GROUP BY product
+ORDER BY total_revenue DESC;
+```
 
-'''
+2. Which products generate the most revenue?
 
-3. Which products generate the most revenue?
+REVENUE CATEGORY
 
-4. Which category performs best?
+```sql
+SELECT category,
+        SUM(quantity * price) AS category_revenue,
+FROM sales,
+GROUP BY category,
+ORDER BY category_revenue DESC;
+```
 
-5. Are we making profit or loss overall?
+3.Which category performs best?
 
-6. Which customers are our top spenders?”
+4. Are we making profit or loss overall?
+
+5. Which customers are our top spenders?”
 
    
