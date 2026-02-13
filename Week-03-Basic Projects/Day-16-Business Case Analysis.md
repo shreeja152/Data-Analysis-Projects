@@ -8,6 +8,8 @@ Your are asked to find:
 
 1. Analyze sales performance and tell me.
 
+TOTAL REVENUE PER PRODUCT
+
 ```sql
 SELECT product,
        SUM(price * quantity) AS total_revenue,
@@ -18,7 +20,7 @@ ORDER BY total_revenue DESC;
 
 2. Which products generate the most revenue?
 
-REVENUE CATEGORY
+REVENUE PER CATEGORY
 
 ```sql
 SELECT category,
