@@ -1,6 +1,6 @@
-# DAY 16 Business Case Analysis (Data Creation + Master KPI Table)
+# DAY 16 Business Case Study (Data Creation + Master KPI Table)
 
-***Scenario (Mini Case Study):***
+***Scenario (Case Study):***
 
 Assume you are a Data Analyst at an E-commerce company.
 
