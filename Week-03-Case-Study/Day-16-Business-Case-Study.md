@@ -32,4 +32,22 @@ INSERT INTO Sales VALUES
 
 <img width="1519" height="378" alt="image" src="https://github.com/user-attachments/assets/786fe21d-d5a8-4cf7-b8ae-e04f00d9fe5c" />
 
+---
+
+**EXCEL**
+
+REVENUE COLUMN 
+
+```
+=E2*F2
+```
+
+PROFIT COLUMN
+
+```
+=(E2-G2)*F2
+```
+
+<img width="1330" height="330" alt="image" src="https://github.com/user-attachments/assets/9c842b68-c9ee-4fd1-9cbc-e4126d80630c" />
+
    
