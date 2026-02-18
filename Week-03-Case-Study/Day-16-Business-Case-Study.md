@@ -36,18 +36,8 @@ INSERT INTO Sales VALUES
 
 **EXCEL**
 
-REVENUE COLUMN 
 
-```
-=E2*F2
-```
+<img width="1133" height="333" alt="image" src="https://github.com/user-attachments/assets/7bc7cfc9-2962-4a90-a0f1-35a6d2a8ebec" />
 
-PROFIT COLUMN
-
-```
-=(E2-G2)*F2
-```
-
-<img width="1330" height="330" alt="image" src="https://github.com/user-attachments/assets/9c842b68-c9ee-4fd1-9cbc-e4126d80630c" />
 
    
