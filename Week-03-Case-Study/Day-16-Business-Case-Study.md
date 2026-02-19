@@ -8,14 +8,14 @@ Your are asked to create the data of the company's sales as well as analyze the 
 **MASTER PERFORMANCE TABLE CREATION**
 
 ```sql
-CREATE TABLE Sales(
-id INT,
-product VARCHAR (50),
-category VARCHAR (50),
-customer_name VARCHAR (50),
-price DECIMAL(10,2),
-quantity INT,
-cost DECIMAL(10,2),
+CREATE TABLE Sales (
+    id INT,
+    product VARCHAR(50),
+    category VARCHAR(50),
+    customer_name VARCHAR(50),
+    price DECIMAL(10,2),
+    quantity INT,
+    cost DECIMAL(10,2)
 );
 
 INSERT INTO Sales VALUES
