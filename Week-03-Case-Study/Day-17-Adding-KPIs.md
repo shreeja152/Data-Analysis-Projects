@@ -6,5 +6,3 @@ So now, we will find and add the KPIs by finding the
 - total revenue per product
 - quantity sold per product
 - total profit per product
-
-  
