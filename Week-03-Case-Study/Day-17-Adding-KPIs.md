@@ -40,3 +40,5 @@ FROM Sales
 GROUP BY customer_name;
 
 ```
+
+<img width="569" height="406" alt="image" src="https://github.com/user-attachments/assets/fc83b5d2-cec9-4966-a3a4-c8d2253c2d0a" />
