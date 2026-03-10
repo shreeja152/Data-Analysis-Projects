@@ -10,4 +10,4 @@ SELECT
 FROM Sales;
 ```
 
-2. 
+2. What is total profit?
